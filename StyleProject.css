@@ -1,0 +1,553 @@
+/*top-bar*/
+.top-bar{
+	background-color: #222222;
+}
+.col-lg-9{
+	padding: 2px 0 4px 0;
+}
+.phone{
+	color: white;
+	text-decoration: none;
+	font-size: 12px;
+	font-family: "Open Sans", sans-serif;
+	margin: 4px 20px 4px 0;
+}
+.phone i, .address i{
+	margin-right: 5px;
+}
+.address{
+	margin: 2px 20px 4px 20px;
+	color: white;
+	font-size: 12px;
+	font-family: "Open Sans", sans-serif;
+}
+.topbar-right{
+	display: block;
+	text-align: right;
+	padding: 3px 0;
+}
+.topbar-right span i{
+	color: white;
+	font-size: 14px;
+	margin: 0 5px;
+}
+/*menu*/
+.menu{
+	border-bottom: 1px #CFCCC5 solid;
+	margin-bottom: 20px;
+}
+.menu-img{
+	display: flex;
+	align-content: center;
+/*	justify-content: center;*/
+}
+.menu-img a {
+	display: flex;
+	justify-content: center;
+	padding: 18px;
+}
+.btn-book-menu{
+	font-size: 12px;
+    min-width: 122px;
+    padding: 6px 15px;
+    background-color: #c7b39a;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: .2s opacity;
+    font-family: "Open Sans";
+}
+.btn-book-menu:hover{
+	background-color: #AC9B86;
+}
+.menu-row{
+	padding: 0;
+}
+.main-menu, .sub-menu{
+    list-style: none;
+}
+.main-menu{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.main-menu li{
+    position: relative;
+    display: inline-block;
+}
+.main-menu>li>a{
+    text-decoration: none;
+    font-size: 16px;
+    padding: 15px 8px; 
+    margin: 5px 10px;
+    color: #666;
+    display: inline-block;
+}
+
+.main-menu>li:hover .sub-menu{
+    display: block;
+}
+.sub-menu{
+    display: none;
+    padding: 0;
+    position: absolute;
+    width: 200px;
+    z-index: 9999;
+    top: 60px;
+    left: 0;
+    box-shadow: 0px 1px 6px 1px rgba(164,164,160,0.75);
+	-webkit-box-shadow: 0px 1px 6px 1px rgba(164,164,160,0.75);
+	-moz-box-shadow: 0px 1px 6px 1px rgba(164,164,160,0.75);
+}
+.sub-menu li{
+    display: block;
+    padding: 5px 10px; 
+    background-color: #fff;
+}
+.sub-menu> li > a{
+    text-decoration: none;
+    width: 100%;
+    font-size: 16px;
+    padding: 6px; 
+    color: #666;
+    display: inline-block;
+}
+.menu-btn{
+	padding: 15px 0;
+}
+/*slider*/
+
+.hotel-slider{
+	background-image: url("images/Slider 1.jpg");
+	background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 1380px;
+}
+.slider-overlay{
+	background-color: rgba(0, 0, 0, 0.4);
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.slider-overlay p{
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+}
+.slider-overlay h1{
+	font-family: "Old Standard TT", serif;
+	font-size: 80px;
+	color: white;
+	text-align: center;
+}
+.slider-btn{
+	font-family: "Open Sans", sans-serif;
+	padding: 13px 60px;
+    border: 1px solid #fff;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 30px;
+}
+.slider-btn:hover{
+	text-decoration: none;
+	color: white;
+}
+
+/*intro*/
+.Introduction{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.intro-content h3{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-family: "Old Standard TT", serif;
+}
+.intro-content p{
+	font-family: "Open Sans", sans-serif;
+	color: #BFBFB9;
+	font-size: 16px;
+}
+/*Accomodation*/
+.Accomodation{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.acc-small-title{
+	text-align: center;
+	color: #BFBFB9;
+	font-size: 12px;
+	font-family: "Open Sans", sans-serif;
+}
+.Accomodation h2{
+	font-family: "Old Standard TT", serif;
+	text-align: center;
+}
+.accom-card{
+	margin: 30px 0;
+	box-shadow: -1px 4px 4px 0px rgba(164,164,160,0.76);
+-webkit-box-shadow: -1px 4px 4px 0px rgba(164,164,160,0.76);
+-moz-box-shadow: -1px 4px 4px 0px rgba(164,164,160,0.76);
+}
+
+/*Spa*/
+.spa{
+	position: relative;
+	width: 1380px;
+}
+.spa-content{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 50%;
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 70px 70px 50px 70px;
+
+}
+.spa-content h1{
+
+	font-family: "Old Standard TT", serif;
+	color: white;
+}
+.spa-content p{
+	margin: 15px 0 28px;
+	font-family: "Open Sans", sans-serif;
+	color: #BFBFB9;
+	font-size: 12px;
+}
+.btn-book{
+	font-size: 12px;
+    min-width: 160px;
+    padding: 11px 20px;
+    background-color: #c7b39a;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: .2s opacity;
+    font-family: "Open Sans";
+}
+.btn-book:hover{
+	background-color: #AC9B86;
+}
+.slick-spa{
+	display: flex;
+}
+.carousel-control-prev, .carousel-control-next{
+	display: inline-block;
+	position: unset;
+	border-color: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.8);
+/*    border-right-width: 1px;*/
+    background: none;
+    border: 2px solid #eaeaea;
+    line-height: 32px;
+    font-size: 21px;
+    width: 32px;
+    margin: 20px 0 0 0;
+}
+.carousel-control-prev{
+	border-radius: 5px 0 0 5px;
+}
+.carousel-control-next{
+	border-radius: 0 5px 5px 0;
+
+}
+
+/*Vacation*/
+.Vacation{
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+
+.vacation-overlay h3, .vacation-overlay p{
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+	
+}
+.Vacation .container{
+	padding: 0;
+}
+.Vacation .container h2{
+	font-family: "Old Standard TT", serif;
+	text-align: center;
+	margin: 20px 0 30px;
+}
+.Vacation .container p{
+	font-family: "Open Sans", sans-serif;
+	color: #BFBFB9;
+	font-size: 13px;
+	text-align: center;
+	text-transform: uppercase;
+}
+/*.va-item{
+	padding: 0 10px;
+}*/
+.vac1:hover{
+	background-image: url("images/plane 2.jpg");
+	background-size: cover;
+	border-radius: 5px;
+}.vac2:hover{
+	background-image: url("images/breakfast 2.jpg");
+	background-size: cover;
+	border-radius: 5px;
+}.vac3:hover{
+	background-image: url("images/tour-guide 2.jpg");
+	background-size: cover;
+	border-radius: 5px;
+}.vac4:hover{
+	background-image: url("images/bbq 2.jpg");
+	background-size: cover;
+	border-radius: 5px;
+}
+.vac1:hover .vacation-overlay{
+	background-color: rgba(0, 0, 0, 0.6);
+}.vac2:hover .vacation-overlay{
+	background-color: rgba(0, 0, 0, 0.6);
+}.vac3:hover .vacation-overlay{
+	background-color: rgba(0, 0, 0, 0.6);
+}.vac4:hover .vacation-overlay{
+	background-color: rgba(0, 0, 0, 0.6);
+}
+.vac1:hover .vacation-overlay h3{
+	color: white;
+}.vac2:hover .vacation-overlay h3{
+	color: white;
+}.vac3:hover .vacation-overlay h3{
+	color: white;
+}.vac4:hover .vacation-overlay h3{
+	color: white;
+}
+.vacation-overlay h3{
+	font-size: 16px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+/*.vacation-overlay p{
+	font-size: 14px;
+	color: #BFBFB9;
+	margin-bottom: 0;
+}*/
+.vacation-overlay{
+	padding: 45px 30px;
+	align-items: center;
+	border: 2px #EAEAEA solid;
+	border-radius: 5px;
+}
+.vacation-overlay img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 78px;
+}
+
+.card-title{
+	font-family: "Old Standard TT", serif;
+	font-weight: bold;
+}
+.card-text{
+	text-align: left;
+	font-family: "Open Sans", sans-serif;
+	color: #BFBFB9;
+}
+
+/*Comment*/
+.Comment{
+	padding: 45px 30px;
+	
+}
+.Comment p{
+	text-transform: uppercase;
+}
+.Comment p, .cmt-item p{
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+	font-size: 13px;
+	color: #BFBFB9;
+}
+.Comment h2, .cmt-item h4{
+	text-align: center;
+	font-family: "Old Standard TT", serif;
+}
+.Comment h2{
+	margin: 30px;
+}
+.cmt-item{
+	padding: 15px;
+	border: 2px #EAEAEA solid;
+	border-radius: 5px;
+}
+.cmt-item img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.cmt-item img:first-child{
+	width: 60px;
+	border-radius: 50%;
+}
+/*News*/
+.news{
+	margin: 80px 0;
+}
+/*.news-card *{
+	font-family: "Open Sans", sans-serif;
+}*/
+.news .container h2{
+	font-family: "Old Standard TT", serif;
+	text-align: center;
+	margin: 15px 0 10px;
+}
+.news-discription {
+	font-family: "Open Sans", sans-serif;
+	color: #BFBFB9;
+	text-align: center;
+	font-size: 12px;
+}
+.news-card{
+	margin: 30px 0;
+}
+.news-card a h5{
+	color: black;
+	font-size: 18px;
+	font-family: "Open Sans", sans-serif;
+}    
+.news-card p a{
+	color: #c7b39a;
+	font-size: 13px;
+	font-family: "Open Sans", sans-serif;
+}
+.news-card p {
+	font-size: 14px;
+    margin-top: 11px;
+    color: #666;
+    font-family: "Open Sans", sans-serif;
+}
+.read-more{
+	font-size: 12px;
+	color: #666;
+}
+.read-more p{
+	display: inline-block;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-right: 7px;
+    color: #666;
+    font-family: "Open Sans", sans-serif;
+}
+.view-more {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+.view-more a{
+	color: #c7b39a;
+	font-size: 12px;
+	font-weight: 500;
+	position: relative;
+}
+.view-more:hover a{
+	text-decoration: none;
+	color: #D8CBBA;
+}
+.view-more:hover a:after{
+	border-bottom: 1px #c7b39a solid;
+	color: #D8CBBA;
+}
+.view-more a:after{
+	position: absolute;
+	content: " ";
+	background-color: #c7b39a;
+	border-bottom: 2px #c7b39a solid;
+	width: 150px;
+	top: 25px;
+	left: -13px;
+}
+/*Footer*/
+.web-footer{
+	background-color: #111111;
+	padding: 30px;
+}
+.foot img{
+	margin-bottom: 15px;
+}
+.foot h3{
+	font-family: "Open Sans", sans-serif;
+	color: white;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-bottom: 25px;
+}
+.contact{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.contact li a, .contact li, .foot p{
+	font-family: "Open Sans", sans-serif;
+	color: #BFBFB9;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-size: 12px;
+}
+.email{
+	display: block;
+	position: relative;
+	border-radius: 2px;
+	background-color: white;
+	padding: 10px 10px;
+	margin-bottom: 10px;
+}
+.email input{
+	border: none;
+	outline: none;
+	font-size: 14px;
+	color: #BFBFB9;
+}
+.email::after{
+	font-family: FontAwesome;
+	position: absolute;
+	right: 15px;
+	top: 12px;
+	content: "\f003";
+	font-size: 14px;
+	color: #BFBFB9;
+}
+.check-btn, .sign-up-btn{
+	font-size: 12px;
+min-width: 160px;
+width: 100%;
+padding: 13px 20px;
+background-color: #c7b39a;
+border: none;
+border-radius: 2px;
+color: #fff;
+display: block;
+text-transform: uppercase;
+transition: .2s opacity;
+font-family: "Open Sans";
+}
+.check-btn:hover, .sign-up-btn:hover{
+	background-color: #AC9B86;
+}
+.copyright{
+	background-color: black;
+	align-content: center;
+	padding: 15px;
+}
+.copyright p{
+	color: #282828;
+	text-align: center;
+	font-size: 13px;
+	margin: 0;
+}
