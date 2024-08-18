@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.0/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#datepicker" ).datepicker();
+    $( "#date" ).datepicker();
+  } );
+  </script>
+
+    <title>Luxe Hotel</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <style type="text/css">
+    	/*Spa*/
+.carouselExampleIndicators{
+	height: 600px;
+}
+
+.spa-content{
+
+	height: 100%;
+	width: 50%;
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 70px 70px 50px 70px;
+
+}
+.spa-content h1{
+	font-family: "Old Standard TT", serif;
+	color: white;
+}
+.spa-content p{
+	margin: 15px 0 28px;
+	font-family: "Open Sans", sans-serif;
+	color: #BFBFB9;
+}
+.btn-book{
+	font-size: 12px;
+    min-width: 160px;
+    padding: 11px 20px;
+    background-color: #c7b39a;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: .2s opacity;
+    font-family: "Open Sans";
+}
+.btn-book:hover{
+	background-color: #AC9B86;
+}
+.slick-spa{
+	display: flex;
+}
+.carousel-control-prev, .carousel-control-next{
+	display: inline-block;
+	position: unset;
+	border-color: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.8);
+/*    border-right-width: 1px;*/
+    background: none;
+    border: 2px solid #eaeaea;
+    line-height: 32px;
+    font-size: 21px;
+    width: 32px;
+    margin: 20px 0 0 0;
+}
+.carousel-control-prev{
+	border-radius: 5px 0 0 5px;
+}
+.carousel-control-next{
+	border-radius: 0 5px 5px 0;
+
+}
+.carousel-indicators{
+	bottom: -50px;
+}
+.carousel-indicators > li{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: gray;
+}
+@media (max-width: 991.98px){
+	.spa-content{
+		width: 100%;
+	}
+
+}
+.spa1{
+	background-image: url("images/Spa like no other.jpg");
+	background-size: cover;
+}.spa2{
+	background-image: url("images/Exquisite Urban Experience.jpg");
+	background-size: cover;
+}
+    </style>
+
+</head>
+<body>
+<div class="container-fluid">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                	<div class="spa1">
+                		<div class="spa-content">
+                        <h1>Spa Like Never Before</h1>
+                        <p>
+                            From the moment you step in, every sensation invites you to unwind. Take a journey of
+                            discovery
+                            and
+                            reconnect
+                            mind, body and spirit – guided by our experienced Aman therapists. We look forward to
+                            welcoming
+                            you.
+                        </p>
+                        <button type="button" class="btn-book">BOOK NOW</button>
+                        <div class="slick-spa">
+                            <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators"
+                                data-slide="prev">
+                                <i class="fa fa-angle-left" aria-hidden="true"></i>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators"
+                                data-slide="next">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                	</div>
+                    
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                	<div class="spa2">
+                		<div class="spa-content">
+                        <h1>Exquisite Urban Experience</h1>
+                        <p>
+                            From the moment you step in, every sensation invites you to unwind. Take a journey of
+                            discovery
+                            and reconnect mind, body and spirit – guided by our experienced Aman therapists. We look
+                            forward
+                            to welcoming you.
+                        </p>
+                        <button type="button" class="btn-book">BOOK NOW</button>
+                        <div class="slick-spa">
+                            <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators"
+                                data-slide="prev">
+                                <i class="fa fa-angle-left" aria-hidden="true"></i>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators"
+                                data-slide="next">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+                	</div>
+ 
+                    
+                </div>
+            </div>
+        </div>
+        </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+</body>
+</html>
