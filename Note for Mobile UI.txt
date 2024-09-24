@@ -1,1 +1,3 @@
 Giao diện Mobile: iPhone XR
+
+Tham Khảo date picker: https://jqueryui.com/datepicker/

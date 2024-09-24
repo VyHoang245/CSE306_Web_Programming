@@ -1,6 +1,9 @@
 img {
     max-width: 100%;
 }
+.card{
+	z-index: 10;
+}
 
 /*top-bar*/
 .top-bar {
@@ -55,9 +58,14 @@ img {
 }
 
 /*menu*/
+
 .menu {
     border-bottom: 1px #CFCCC5 solid;
     margin-bottom: 20px;
+    background-color: #fff;
+    z-index: 999;
+/*    position: fixed;
+  width: 100%;*/
 }
 
 .menu-img {
@@ -161,7 +169,6 @@ img {
         display: none;
     }
 }
-
 
 .menu-imgMB {
     display: flex;

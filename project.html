@@ -498,17 +498,28 @@
 
     <script type="text/javascript">
         $(".go-to-top").click(function(){
-            $("html,body").animate({scrollTop:0},1000);
+            $("html,body").animate({scrollTop:0},5000);
         });
 
         $(window).scroll(function(){
+            if($(this).scrollTop() > 40){
+                $(".menu").css("top","0");
+                $(".menu").css("position","fixed");
+                $(".menu").css("width","100%");
+            }
+            else{
+                $(".menu").css("top","unset");
+                $(".menu").css("position","unset");
+                
+            }
+
             if($(this).scrollTop() > 100){
                 $(".go-to-top").fadeIn();
             }
             else{
                 $(".go-to-top").fadeOut();
             }
-        })
+        });
     </script>    
     <script type="text/javascript">
         $(".menu-icon").on("click", "i", function () {
